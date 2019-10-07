@@ -1,0 +1,177 @@
+/*** Body ***/
+h1 {
+font-family: 'Merienda', cursive;
+font-weight: 700;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: 'Merienda', cursive;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+}
+
+#header {
+  height: 800px;
+  background-color: #f0f7ee;
+}
+
+#about {
+  height: 1050px;
+  background-color: #9dbf9e;
+}
+
+#work {
+  height: 850px;
+  background-color: #f0f7ee;
+}
+
+#contact {
+  height: 650px;
+  background-color: #9dbf9e;
+}
+
+/*** Grid ***/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  margin: 0 auto;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  margin: 0 auto;
+  float: left;
+}
+
+/*** Header ***/
+
+nav {
+  float: right;
+  margin-left: 920px;
+  margin-bottom: 200px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #776871;
+  padding-left: 25px;
+  text-decoration: none;
+}
+
+.head {
+  color: #776871;
+  font-size: 64px;
+  margin: 0;
+}
+
+span {
+  color: #9dbf9e;
+}
+
+.head-two {
+  color: #776871;
+}
+
+/*** About ***/
+.about-me {
+  color: #f0f7ee;
+  padding: 200px 20px 40px 20px;
+  text-align: center;
+}
+
+.headshot {
+  border: 2px solid #f0f7ee;
+  display: block;
+  margin: 0 auto;
+}
+
+.intro {
+  color: #f0f7ee;
+  text-align: center;
+}
+
+.bio {
+  color: #f0f7ee;
+  padding: 0px 300px;;
+  text-align: center;
+}
+
+/*** Work ***/
+.portfolio {
+  color:  #776871;
+  padding: 100px;
+  text-align: center;
+}
+
+.work {
+  display: block;
+  margin: 0 auto;
+}
+
+.title {
+  color: #776871;
+  text-align: center;
+}
+
+.description {
+  color: #776871;
+  text-align: center;
+}
+
+/*** Contact ***/
+.connect {
+  color: #f0f7ee;
+  padding: 160px 20px 40px 20px;
+  text-align: center;
+}
+
+.title-2, .info {
+  color: #f0f7ee;
+  text-align: center;
+}
+
+.icons {
+  margin: 0 120px;
+}
+
+.icon {
+  padding-left: 20px;
+}
+
+/*** Footer ***/
+footer {
+  background-color: #9dbf9e;
+}
+
+h5 {
+  color: #f0f7ee;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  text-align: center;
+}
